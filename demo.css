@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 100px;
+    /* width: 100px; */
+    background-color: rgb(101, 8, 101);
+    align-items: center;
+}
+#child1{
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+}
+#child2{
+    height: 80px;
+    width: 80px;
+    background-color: olive;
+}
+#child3{
+    height: 80px;
+    width: 80px;
+    background-color: cyan;
+}

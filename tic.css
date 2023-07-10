@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+#heading{
+    display: flex;
+    height: 70px;
+    background-color: rgb(206, 91, 2);
+    font-size: 35px;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#gridContainer
+{
+    display: grid;
+    grid-auto-rows: 180px;
+    grid-auto-columns: 180px;
+   padding-left: 20vw;
+   padding-top: 20px;
+   font-size: 80px;
+   font-family: 'Roboto', sans-serif;
+  
+}
+#grid1{
+    grid-row: 1 ;
+    grid-column: 1 ;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid2{
+    grid-row: 2 ;
+    grid-column: 1 ;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#grid3{
+    grid-row: 3 ;
+    grid-column: 1 ;
+    border-right: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#grid4{
+    grid-row: 1 ;
+    grid-column: 2 ;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#grid5{
+    grid-row: 2 ;
+    grid-column: 2 ;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#grid6{
+    grid-row: 3 ;
+    grid-column: 2 ;
+    border-right: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#grid7{
+    grid-row: 1 ;
+    grid-column: 3 ;
+  
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#grid8{
+    grid-row: 2 ;
+    grid-column: 3 ;
+   
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#grid9{
+    grid-row: 3 ;
+    grid-column: 3 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+
+
+
